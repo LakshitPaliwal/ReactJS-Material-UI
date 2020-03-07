@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Newpage1 from './Newpage1';
 import Myform11 from './Myform11';
-import Newb from './Newb';
+import Newbutton from './Newbutton';
 function App() {
   return (
     <div className="App">
@@ -23,7 +23,7 @@ function App() {
        {/* <Newpage1  />  */}
        <Myform11 />
       </header>
-      <Newb/>
+      <Newbutton/>
 
     </div>
   );
