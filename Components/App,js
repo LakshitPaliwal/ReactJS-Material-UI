@@ -1,0 +1,32 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Newpage1 from './Newpage1';
+import Myform11 from './Myform11';
+import Newb from './Newb';
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          // href="https://lakshit27.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+       {/* <Newpage1  />  */}
+       <Myform11 />
+      </header>
+      <Newb/>
+
+    </div>
+  );
+}
+
+export default App;
